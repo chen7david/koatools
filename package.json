@@ -1,0 +1,23 @@
+{
+  "name": "koatools",
+  "version": "0.0.0",
+  "description": "tool kit for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen7david/koatools.git"
+  },
+  "keywords": [
+    "koa",
+    "tools"
+  ],
+  "author": "David M.Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chen7david/koatools/issues"
+  },
+  "homepage": "https://github.com/chen7david/koatools#readme"
+}
