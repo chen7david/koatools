@@ -66,6 +66,10 @@ module.exports = ({io, connections}) => {
     })
 }
 
+```
+
+### Example ErrorMutationHandler Middleware
+```js
 
 /* ErrorMutationHandler.js Example File */
 module.exports = async (err, ctx, next) => {
@@ -74,7 +78,10 @@ module.exports = async (err, ctx, next) => {
     // add your code here ...
     return ctx.cargo
 }
+```
 
+### Example ErrorMutationHandler Middleware With Dependecies
+```js
 
 /* ErrorMutationHandler.js Example File This Dependencies */
 module.exports = async (err, ctx, next) => {
@@ -123,6 +130,11 @@ module.exports = async (err, ctx, next) => {
 
     return ctx.cargo
 }
+
+```
+
+### Example ValidationSchemas Middleware
+```js
 
 /* ValidationSchemas.js Example File */
 const Joi = require('@hapi/joi') 
