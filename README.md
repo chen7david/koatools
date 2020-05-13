@@ -5,7 +5,10 @@ const { models, middleware, helpers } = require('koatools')
 const { BaseModel } = models
 const { ErrorHandler, ErrorLogger, validateBody, cargo, koaio } = middleware
 const { dd, randChar } = helpers
+```
 
+### Example App
+```js
 /* Example Koa App */
 const Koa = require('koa')
 const IO = require('koa-socket-2')
@@ -43,7 +46,7 @@ app.listen(server.port, () => {
 SocketMapper({io, connections})
 ```
 
-## Example Middleware
+### Example Middleware
 ```js
 /* SocketMapper.js Example File */
 module.exports = ({io, connections}) => {
