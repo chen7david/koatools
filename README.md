@@ -42,7 +42,7 @@ app.listen(server.port, () => {
 
 SocketMapper({io, connections})
 
-/* SocketMapper.js Example File*/
+/* SocketMapper.js Example File */
 module.exports = ({io, connections}) => {
 
     io.on('connect', (socket) => {
@@ -60,7 +60,7 @@ module.exports = ({io, connections}) => {
 }
 
 
-/* ErrorMutationHandler.js Example File*/
+/* ErrorMutationHandler.js Example File */
 module.exports = async (err, ctx, next) => {
     // cargo is a predefined response object structure
     err.id = ctx.cargo.serial
