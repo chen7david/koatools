@@ -1,5 +1,5 @@
 module.exports = {
-    models: require('./models'),
-    middleware: require('./middleware'),
-    helpers: require('./helpers'),
+    ...require('./models'),
+    ...require('./middleware'),
+    ...require('./helpers'),
 }
