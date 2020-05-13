@@ -41,7 +41,10 @@ app.listen(server.port, () => {
 })
 
 SocketMapper({io, connections})
+```
 
+## Example Middleware
+```js
 /* SocketMapper.js Example File */
 module.exports = ({io, connections}) => {
 
